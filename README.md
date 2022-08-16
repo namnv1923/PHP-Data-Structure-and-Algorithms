@@ -12,5 +12,5 @@ Cách sử dụng kết quả:
   - Queue
   - Stack
  ### HackeRank
-![Screenshot](![Screenshot from 2022-08-16 15-06-58](https://user-images.githubusercontent.com/88027647/184832949-c74b41bc-0745-4171-9b05-5d72cd849fa5.png)
-)
+![Screenshot from 2022-08-16 15-06-58](https://user-images.githubusercontent.com/88027647/184832949-c74b41bc-0745-4171-9b05-5d72cd849fa5.png)
+
