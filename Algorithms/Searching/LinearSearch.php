@@ -10,7 +10,7 @@ function linearSearch($arr, $x) {
 }
 
 $arr = [2, 10, 3, -1, 0, 8];
-$x = 20;
+$x = 10;
 if(linearSearch($arr, $x)) {
     print_r(linearSearch($arr, $x));
 } else {

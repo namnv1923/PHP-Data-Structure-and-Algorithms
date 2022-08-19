@@ -1,13 +1,15 @@
 <?php
 
 function insertionSort($arr) {
-    foreach ($arr as $i => $value) {
-        for ($j = $i; $j > 0 && $arr[$j - 1] > $value; --$j) {
-            $arr[$j] = $arr[$j - 1];
+    for ($i=1; $i<count($arr); $i++){
+        $tam = $arr[$i];
+        $j = $i-1;
+        while ($j > -1 && $arr[$j]>$tam){
+            $arr[$j+1] = $arr[$j];
+            $j--;
         }
-        $arr[$j] = $value;
+        $arr[$j+1] = $tam;
     }
-
     return $arr;
 }
 
